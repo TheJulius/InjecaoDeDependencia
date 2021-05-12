@@ -1,7 +1,10 @@
 package injecaoDeDependencia;
 
-public interface Persistencia {
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
+
+public class Persistencia {
 	
-	public static void SalvaDados() {}
+	public void salvarDados(Aluno aluno) throws TransformerException, ParserConfigurationException, Exception {}
 
 }
